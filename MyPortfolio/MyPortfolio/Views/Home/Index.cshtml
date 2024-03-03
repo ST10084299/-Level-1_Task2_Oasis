@@ -1,0 +1,538 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+
+  
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <style type="text/css" media="screen">
+        .s-styles {
+            background-color: #ffffff;
+            padding-top: 21.6rem;
+            padding-bottom: 14.8rem;
+        }
+
+        .display-1 {
+            font-family: "Frank Ruhl Libre", serif;
+            font-size: 5.5rem;
+            line-height: 1.236;
+            letter-spacing: -0.03rem;
+            margin-top: 0;
+            margin-bottom: 2.8rem;
+        }
+    </style>
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <!-- site header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+             
+            </a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-main-nav">
+                <li class="current"><a href="#intro" title="intro">Intro</a></li>
+                <li><a href="#about" title="about">About</a></li>
+                <li><a href="#services" title="services">Skills</a></li>
+                <li><a href="#works" title="works">Works</a></li>
+                <li><a class="smoothscroll" href="#contact" title="contact us">Say Hello</a></li>
+            </ul>
+
+            <ul class="header-social">
+                <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
+                <li><a href="#0"><i class="fab fa-behance" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+    <!-- intro
+    ================================================== -->
+    <section id="intro" class="s-intro target-section">
+
+        <div class="">
+
+            <div class="column large-9 mob-full intro-text">
+                <h3>Hello, I'm Muhammad Ismail</h3>
+                <h1>
+                    Software Developer <br />And Application Creator <br>
+                    Based in Durban.
+                </h1>
+            </div>
+
+
+            <div class="intro-scroll">
+                <a href="#styles" class="intro-scroll-link smoothscroll">
+                    Scroll For More
+                </a>
+            </div>
+
+            <div class="intro-pic"></div>
+
+        </div> <!-- end row -->
+
+    </section> <!-- end intro -->
+    <!-- styles
+    ================================================== -->
+
+
+
+
+    <section id="about" class="s-about target-section">
+
+        <div class="about-me">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">About Me</h2>
+                </div>
+            </div>
+
+            <div class="row about-me__content" data-aos="fade-up">
+                <div class="column large-full about-me__text">
+                    <p class="lead">
+                        I have a background in IT support, computer science, and app development. 
+                        I have gained valuable experience in providing technical assistance, troubleshooting hardware and software issues,
+                        and ensuring smooth operations of computer systems.
+                    </p>
+
+                    <p>
+                        During my Bachelor's degree in Computer Science and App Development, I gained extensive experience in utilizing various technologies and tools.
+                        I have a solid understanding of programming languages such as c#,Java, Javascript and Kotlin, which enable me to develop reliable and scalable solutions.
+                    </p>
+
+                    <p>
+                        In my app development projects, I have utilized Firebase as a powerful backend service to handle user authentication, real-time database management, and cloud storage.
+                        I have successfully integrated Firebase features into mobile applications to enhance user experiences and ensure seamless data synchronization across devices.
+                    </p>
+
+                    <p>
+                        Additionally, I have worked with Azure cloud services, leveraging its capabilities to build and deploy scalable web applications. 
+                        I have experience in utilizing Azure App Services, Azure Storage, and Azure Functions
+                        to create cloud-based solutions that are secure, reliable, and highly available.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row about-me__buttons">
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <a href="#0" class="btn btn--stroke full-width">Hire Me</a>
+                </div>
+                <div class="column large-half tab-full" data-aos="fade-up">
+
+                    <a asp-action="Download" class="btn btn--primary full-width">Download Cv </a>
+
+
+
+                </div>
+            </div>
+
+        </div> <!-- end about-me -->
+
+        <div class="about-experience">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">Work & Education</h2>
+                </div>
+            </div>
+
+            <div class="row about-experience__timeline">
+
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--work"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">2020 - Present</p>
+                                <h3 class="item-title">Non Profit Organisation</h3>
+                                <h5>KZN Dog House <br /> 2023</h5>
+                                   
+
+                                
+                               
+                            </div>
+
+                        </div>
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">2024 - Currently</p>
+                                <h3 class="item-title">Web developer Internship</h3>
+                                <h5>Oasis Infobyte <br /> 2024</h5>
+
+
+
+
+                            </div>
+        
+
+
+                    </div>
+                </div>
+          
+                </div>
+
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--education"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">2020</p>
+                                <h3 class="item-title">HIS In IT Support<br /></h3>
+                                <h5>Higher Certificate</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">January 2021 -  December  2023</p>
+                                <h3 class="item-title">Bachelor of Computer Science and Application Development</h3>
+                                <h5>Bachelor Degree</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p> </p>
+                            </div>
+                        </div>
+
+                     
+                </div>
+            </div>
+            </div>
+
+        </div> <!-- end about-experience -->
+
+    </section>
+    <section id="services" class="s-works target-section">
+
+        <div class="column large-6 tab-full">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">Skills</h2>
+                </div>
+            </div>
+            <ul>
+                <li>IT Support: Proficient in providing technical support, troubleshooting hardware and software issues, and resolving technical problems efficiently.</li>
+                <li>Softtware Development: Strong understanding of programming languages and development frameworks, with experience in designing and implementing innovative software solutions.</li>
+                <li>Problem-Solving: Ability to analyze complex issues, identify root causes, and develop effective solutions, ensuring optimal system performance and user satisfaction.</li>
+                <li>Programming Languages: Proficient in   Java, Kotlin, C#, etc..</li>
+                <li>Attention to Detail: Meticulous approach to tasks, ensuring accuracy and precision in all aspects of work.</li>
+                <li>Adaptability: Quick learner with the ability to adapt to new technologies and environments, ensuring effective integration and seamless workflow.</li>
+            </ul>
+
+
+            <h3>Skill Bars</h3>
+
+            <ul class="skill-bars">
+                <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>HTML</strong>
+                </li>
+                <li>
+                    <div class="progress percent85"><span>85%</span></div>
+                    <strong>CSS</strong>
+                </li>
+                <li>
+                    <div class="progress percent70"><span>70%</span></div>
+                    <strong>SQL</strong>
+                </li>
+                <li>
+                    <div class="progress percent95"><span>95%</span></div>
+                    <strong>Java</strong>
+                </li>
+                <li>
+                    <div class="progress percent75"><span>75%</span></div>
+                    <strong>Kotlin</strong>
+                </li>
+               
+            </ul>
+
+        </div>
+
+    </section>
+    <section id="works" class="s-works target-section">
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">Selected Works</h2>
+                <p class="section-desc">
+                    Here are some of my selected works I have done lately. Feel free to
+                    check them out.
+                </p>
+            </div>
+        </div> <!-- end heading-block -->
+
+        <div class="masonry-wrap">
+
+            <div class="masonry">
+                <div class="grid-sizer"></div>
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/app12.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                <img src="images/time.jpg"
+                                     srcset="images/time.jpg 1x, images/time.jpg 2x " alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Time Management App
+                            </h4>
+                            <p class="item-folio__cat">
+                            </p>
+                        </div>
+
+                        <div class="item-folio__caption">
+                            <p>In the year 2023, I developed a Student Tracking app designed to help students stay organized, meet deadlines, and track their progress </p>
+                        </div>
+                    </div>
+                </div> <!-- end of app showcase -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <img src="images/app13.jpg"
+                                     srcset="images/app13.jpg 1x, images/app13.jpg 2x" alt="">
+                            </a>
+                            <a href="" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Tic Tac Toe Application
+                            </h4>
+                            <p class="item-folio__cat">
+                                
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Created engaging Tic Tac Toe game during college week. Features single-player and multiplayer modes, adjustable difficulty levels, and visually appealing interface. Showcases passion for game development and skills in creating intuitive experiences.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <img src="images/app13.jpg"
+                                     srcset="images/aviscope.jpg 1x, images/aviscope.jpg 2x" alt="">
+                            </a>
+                            <a href="" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Bird watching Application
+                            </h4>
+                            <p class="item-folio__cat">
+
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Developed a bird watching app. Features include login, registration , capturing ,bird hotspot ,recording, adjustable setting and visually appealing interface.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end app  -->
+
+                
+
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/kzndog.png" class="thumb-link" title="Guitarist" data-size="1050x700">
+                                <img src="~/images/photoswipe/image2.png"
+                                     srcset="images/photoswipe/image2.png 1x,images/photoswipe/image2.png 2x" alt="">
+                            </a>
+                            <a href="" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Web Backend And Front End For KZN Dog House
+                            </h4>
+                            <p class="item-folio__cat">
+                            
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                    
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+
+
+            </div> <!-- end masonry -->
+
+        </div> <!-- end masonry-wrap -->
+
+    </section> <!-- end s-work -->
+    <section  id="styles" class="s-styles">
+
+
+    <div class="column large-6 tab-full">
+
+                <h3>Fill  Form</h3>
+
+                <form asp-action="" asp asp-controller="">
+                    <div>
+                        <label for="sampleInput">Your email</label>
+                        <input class="full-width" type="email" placeholder="test@mailbox.com" id="sampleInput">
+                    </div>
+                    <div>
+                        <label for="sampleRecipientInput">Reason for contacting</label>
+                        <div class="ss-custom-select">
+                            <select class="full-width" id="sampleRecipientInput">
+                                <option value="Option 1">Questions</option>
+                                <option value="Option 2">Report</option>
+                                <option value="Option 3">Others</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <label for="exampleMessage">Message</label>
+                    <textarea class="full-width" placeholder="Your message" id="exampleMessage"></textarea>
+
+                    <label class="add-bottom">
+                        <input type="checkbox">
+                        <span class="label-text">Send a copy to yourself</span>
+                    </label>
+
+                    <input class="btn--primary full-width" type="submit" value="Submit">
+                </form>
+
+            </div>
+
+           
+<!-- end row -->
+
+    </section> <!-- end styles -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact ss-dark target-section">
+
+        <div class="row heading-block" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading">Get In Touch</h2>
+            </div>
+        </div>
+
+        <div class="row contact-main" data-aos="fade-up">
+            <div class="column large-full">
+                <p class="contact-email">
+                    <a href="mailto:izakariya03@gmail.com">izakariy03@gmail.com</a>
+                </p>
+
+                <p class="section-desc">
+                    I am excited to collaborate, listen, and assist you in creating something remarkable. Together, we can transform your idea into an exceptional product, taking it to new heights of success.
+                    <a href="mailto:izakariya03@gmail.com">Email Me</a>.
+                </p>
+            </div>
+        </div>
+
+        <div class="row contact-infos" data-aos="fade-up">
+
+            <div class="column large-5 medium-full contact-phone">
+                <h4>Call Me</h4>
+                <a href="Cell phone No:197-543-2345">082 370 5287 </a>
+            </div>
+
+            <div class="column large-7 medium-full contact-social">
+                <h4>Social</h4>
+                <ul>
+                    <li><a href="#0" title="Facebook">Facebook</a></li>
+                    <li><a href="#0" title="Twitter">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/muhammed.zakariya.921/" title="Instagram">Instagram</a></li>
+                </ul>
+            </div>
+
+        </div> <!-- end contact-infos -->
+
+    </section> <!-- end s-contact -->
+    <!-- footer
+    ================================================== -->
+    <footer>
+   
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+
+
+    </div><!-- end photoSwipe background -->
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
